@@ -14,8 +14,8 @@ module.exports = class WyzeAPI {
     this.mfaCode = options.mfaCode;
 
     // URLs
-    this.authBaseUrl = options.authBaseUrl || 'https://auth-prod.api.wyze.com';
-    this.apiBaseUrl = options.apiBaseUrl || options.baseUrl || 'https://api.wyzecam.com';
+    this.authBaseUrl = options.authBaseUrl || 'https://api.wyzecam.com:8443';
+    this.apiBaseUrl = options.apiBaseUrl || options.baseUrl || 'https://api.wyzecam.com:8443';
 
     // App emulation constants
     this.authApiKey = options.authApiKey || 'WMXHYf79Nr5gIlt3r0r7p9Tcw5bvs6BB4U8O8nGJ';
